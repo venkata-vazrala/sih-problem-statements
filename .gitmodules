@@ -1,0 +1,3 @@
+[submodule "smart-attendance-app"]
+	path = smart-attendance-app
+	url = https://github.com/venkata-vazrala/Smart-Attendance-Capturing-Mobile-App.git
