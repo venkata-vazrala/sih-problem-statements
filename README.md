@@ -1,15 +1,21 @@
-# Smart India Hackathon (SIH) — Problem Statement Proposals
+# Smart India Hackathon (SIH) — Problem Statements
 
-Proposal-stage submissions prepared for Smart India Hackathon, covering three problem statements:
+Submissions prepared for Smart India Hackathon, covering three problem statements:
 
 1. **Secure wireless controller for hand-held remote operation of traffic in peak hours**
-2. **Smart attendance capturing mobile app**
+2. **Smart attendance capturing mobile app** — *implemented* (see below)
 3. **Attendance systems for students of government-aided schools**
 
 ## Contents
 
+- `smart-attendance-app/` — full mobile-app implementation of statement #2 (submodule → [Smart-Attendance-Capturing-Mobile-App](https://github.com/venkata-vazrala/Smart-Attendance-Capturing-Mobile-App))
 - `SIH PPT Format.pptx` — presentation template used for the submission
 - `SIH Poster.pdf` — submission poster
-- Problem-statement abstracts (Google Docs — see original folder; not included here as these are Drive-only stub files)
 
-*Note: these are proposal/abstract-stage submissions, not built applications — no source code was produced for this round.*
+## Clone with the app
+
+```bash
+git clone --recurse-submodules https://github.com/venkata-vazrala/sih-problem-statements.git
+# or, if already cloned:
+git submodule update --init
+```
